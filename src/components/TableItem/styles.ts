@@ -11,7 +11,7 @@ export const TableColumn = styled.td`
 export const Category = styled.div<{ color: string }>`
     display: inline-block;
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 50px;
     color: #FFF;
     background-color: ${props => props.color};
 `;
